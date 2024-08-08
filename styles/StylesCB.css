@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-image:url(./assets/bg.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: repeat;
+    color: rgb(36, 36, 36);
+    height: 100vh;
+    box-sizing: border-box; 
+}
+
+.element {
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    margin: 0%;
+    margin-left: 15%;
+}
+.titulo1{
+    font-family: "Playwrite AR", cursive;
+    font-size: 36px;
+    height: 500px;
+    margin-top: 15%;
+}
+.img1 {
+    width: 900px;
+    height: 300px;
+    margin-top: 3%;
+}
+.sq1 {
+    font-family: "Raleway", sans-serif;
+    width: 500px;
+    font-size: 20px;
+}
+.sq2 {
+    font-family: "Raleway", sans-serif;
+    width: 500px;
+    font-size: 18px;
+}
+.strong {
+    color: rgb(73, 34, 15);
+}
+.tudoigual {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 1200px;
+height: 600px;
+}
+.direita {
+    margin-left: 10%;
+    margin-bottom: 10%
+    display= flex;
+    align-items: center;
+    justify-content: flex-end; }
+.mundo {
+    width: 15000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.img2 {
+    height: 936px;
+    width: 300px;
+    border-left: 3px solid rgb(158, 112, 85);
+    margin-top: 32%;
+}
+.diferente {
+    margin-top: 20px;
+}
+.teste {
+    background-color: rgb(77, 72, 53);
+    height: 95px;
+    color: rgb(255, 254, 190);
+    font-family:'Krona One', sans-serif;
+    font-size: 25px;
+    border-bottom: 5px solid rgb(24, 19, 14);
+    display: flex;
+    position:fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+.pedro {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+    padding-bottom: 1px;
+    border: solid 3px rgb(252, 252, 185);
+    border-radius: 16px;
+
+}
+.teste2 {
+    background-color: rgb(77, 72, 53);
+    height: 50px;
+    width: 100%;
+    color: rgb(255, 254, 190);
+    font-family:'Krona One', sans-serif;
+    font-size: 25px;
+    border-top: 5px solid rgb(24, 19, 14);
+}
+.img3 {
+    width: 150px
+    height= 150px;
+    align-items:flex-start;
+    margin-right: 45%;
+}
+.a {
+    margin-top: 1.8%;
+    margin-right: 3%;
+    text-decoration: none;
+    color: rgb(255, 245, 199);
+}
